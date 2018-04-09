@@ -1,7 +1,7 @@
 # TravelBook
 
 > Front part of the TravelBook project.
-Please visit : https://github.com/Nashunn/UPMC_WebFlux to check the backend part
+Please visit : https://github.com/Nashunn/UPMC_TravelBookBack to check the backend part
 
 TravelBook is a university (UPMC) project built by differents pathway ('Projet Web' and 'Flux Numérique'):
 - Alexandre DESHAYES
