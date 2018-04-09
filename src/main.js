@@ -9,7 +9,6 @@ Vue.use(VueAxios, axios);
 
 import Sandbox from './components/Sandbox.vue';
 import Home from './components/Home.vue';
-
 const routes = [
   {
     name: 'home',
