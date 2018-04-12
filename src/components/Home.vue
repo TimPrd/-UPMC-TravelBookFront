@@ -1,21 +1,7 @@
 <template>
     <div id="page-top">
         <!-- Header -->
-        <header class="row">
-            <div class="left-side col s4 m4">
-                <div class="search-bar row margin-bottom-0">
-                    <input class="search col s10 m4 right" type="text" placeholder="Recherche" />
-                    <i class="ico fas fa-search right"></i>
-                </div>
-                <div class="button-menu row margin-bottom-0">
-                    <button class="tb-btn btn-red col s12 m5 right">Nouveau Book</button>
-                    <button class="tb-btn btn-red col s12 m5 right">Connexion</button>
-                </div>
-            </div>
-            <div class="wrapper-logo col s4 m4 offset-m4">
-                <img src="../assets/img/logo.png" class="logo" alt="TravelBook"/>
-            </div>
-        </header>
+        <tb-header/>
         <!-- End Header -->
         <!-- Content -->
         <section class="container center-align">
@@ -178,12 +164,15 @@
 </template>
 
 <script>
-export default {
-  name: "HelloWorld",
-  data() {
-    return {};
-  }
-};
+    import tbHeader from './Header.vue';
+
+    export default {
+        name: "HelloWorld",
+        components: { tbHeader },
+        data() {
+            return {};
+        }
+    };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
