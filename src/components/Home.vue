@@ -164,6 +164,7 @@
 </template>
 
 <script>
+    import {HTTP} from './../http/http-base';
     import tbHeader from './Header.vue';
 
     export default {
