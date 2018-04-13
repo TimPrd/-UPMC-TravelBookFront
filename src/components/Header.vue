@@ -11,7 +11,9 @@
             </div>
           </div>
         <div class="wrapper-logo col s4 m4 offset-m4">
-            <img src="../assets/img/logo.png" class="logo" alt="TravelBook"/>
+            <a href="#">
+                <img src="../assets/img/logo.png" class="logo" alt="TravelBook"/>
+            </a>
         </div>
     </header>
 </template>
