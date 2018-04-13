@@ -1,11 +1,11 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Router from 'vue-router'
 import Home from '@/components/Home'
 import Sandbox from '@/components/Sandbox'
 
 Vue.use(Router)
 
-export default new VueRouter({
+export default new Router({
       mode: 'history',
   routes: [
     {
@@ -14,7 +14,7 @@ export default new VueRouter({
       component: Home
     },
     {
-      path: '/about',
+      path: '/sandbox',
       name: 'Sandbox',
       component: Sandbox
     }
